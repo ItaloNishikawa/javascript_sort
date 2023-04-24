@@ -1,0 +1,40 @@
+Ordenação das linhas da tabela:
+Adicione a funcionalidade de ordenar a tabela por qualquer coluna
+(Ranking, Equipe, Pontos, etc.). Para isso, crie uma função em 
+JavaScript que detecte o clique no cabeçalho da tabela e ordene 
+as linhas de acordo com o valor da coluna selecionada. Alterne 
+entre ordem crescente e decrescente a cada clique.
+
+Filtragem de equipes:
+Crie uma barra de pesquisa acima da tabela para permitir que os 
+usuários filtrem as equipes pelo nome. Utilize JavaScript para 
+criar uma função que detecte a entrada do usuário no campo de 
+pesquisa e filtre as linhas da tabela para exibir apenas aquelas
+que correspondem ao texto inserido. Restaure a tabela original 
+quando o campo de pesquisa estiver vazio.
+
+
+Filtragem de equipes:
+
+ordenar por nome, nota, Ranking, turma, pontuação
+
+- Click header
+
+- identificar id do click header
+
+- Puxar row do id
+
+- Sort row
+
+Ordenação das linhas da tabela:
+
+- Crir um input no html(dá id)
+
+- Puxa input no js(getElement)
+
+- Puxa as linhas no js(modificar html original para adicionar
+id´s onde necessario)
+
+- Criar evento para o input
+
+- puxar um ForEach para verificar cada um dos nome pelo id
